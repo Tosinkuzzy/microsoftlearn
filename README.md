@@ -6,7 +6,7 @@ High level programming language that explains everything you need to know about 
 
 This project cover the following topics:
 
-* Understanding and ussing variables
+* Understanding and using variables
 * Using lists and dictionaries:
 * Program flow with if-statements and loops
 * How to create functions
