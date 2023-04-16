@@ -1,0 +1,5 @@
+name = input("What is your name? ")
+print(f"Welcome, {name}!")
+birth_year = input("What is your birth year? ")
+birth_year = int(birth_year)
+print(f"You are {2023 - birth_year} years old")
