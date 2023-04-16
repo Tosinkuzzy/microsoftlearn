@@ -2,11 +2,19 @@ Author: Tosinkuzzy
 company: Microsoftlearn
 program: python
 
+<<<<<<< HEAD
 This is a high level programming language that explains everything you need to know about python
 
 This project cover the following topics:
 
 * Understanding and ussing variables
+=======
+High level programming language that explains everything you need to know about python
+
+This project cover the following topics:
+
+* Understanding and using variables
+>>>>>>> c18b7b2b6274f753fb54b325bb6700e246ec16a0
 * Using lists and dictionaries:
 * Program flow with if-statements and loops
 * How to create functions
@@ -18,4 +26,7 @@ This project cover the following topics:
 * Creating projects, including a Machine Learning model from scartch
 * Recursive functions
 * List comprehension
+<<<<<<< HEAD
 
+=======
+>>>>>>> c18b7b2b6274f753fb54b325bb6700e246ec16a0
