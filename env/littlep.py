@@ -8,10 +8,10 @@ message = "Welcome to royal luxury Car!"
 print(message)
 # More sentence
 car = ['tesla', 'toyota', 'honda', 'innoson']
-# Changing an element
+# Changing element
 car[1] = 'elegant'
 print(car)
-# Adding an element
+# Adding element
 car.append('ford')
 print(car)
 # Getting input from user
