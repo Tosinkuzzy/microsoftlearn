@@ -1,3 +1,12 @@
-#say hello to everyone.
+# Build a sentence
+bicycles = ['trek', 'cannodale', 'redline', 'specialized']
 
-print("Hello Python people!")
+# Accessing Elements in a List 
+# Formatting the element
+print(bicycles[1].title())
+print(bicycles[-1].title())
+
+# Using Individual Values from a List
+
+message = "My first bicycle was a " + bicycles[1].title() + "."
+print(message)
