@@ -7,11 +7,13 @@ print("Hi! " + names.title())
 message = "Welcome to Innoson Vehicles!"
 print(message)
 # More sentence
-print("Top Cars" + "\n")
+# print("Top Cars" + "\n")
 # Sorting a List Permanently with the sort() Method
 car = ['fox', 'umu', 'carrier', 'ivm carrier', 'g4', 'g6', 'g40', 'ivm carrier 4x4 pickup']
+print("List of Cars:")
 # Looping through a slice 
-for car in car[:10]:
+# for car in car[:10]:
+for car in car:
     print(car.title())
 # Changing element'
 # Adding element

@@ -1,15 +1,23 @@
-# Looping through on Entire List
-magicians = ['david', 'willow', 'greg']
-# Store Value in magician
-for magician in magicians:
-    print(magician.title() + ", that was a geat trick!")
-    print("I can't wait to see your next trick, " + magician.title() + ".\n")
-    
-    print("Thank you, everyone. That was a great magic show!")
+# copying a List
+my_foods = ['amala', 'rice', 'semo', 'tuwo', 'eba', 'ewedu']
+friend_foods = my_foods[:]
 
-    for value in range(1, 40):
-        print(value)
-numbers = list(range(1,6))
-# slicing a List
-players = ['willow', 'james', 'adeyemi', 'oshimen', 'tinubu']
-print(players[1:6])
+my_foods.append('canoli')
+friend_foods.append('ice cream')
+
+print("My favourite foods are:")
+print(my_foods)
+
+print("\nMy friends foods are:")
+print(friend_foods)
+
+# Defininig a tuple
+# dimensions = (200, 50)
+# Looping though tuple 
+# for dimension in dimensions:
+#  print(dimension)
+# buffet
+restaurant = ['rice', 'chicken', 'salad', 'ogufe', 'ewa', 'fish']
+print("List of foods:")
+for restaurant in restaurant:
+    print(restaurant)
