@@ -16,9 +16,11 @@ car[3] = 'kia'
 car.append('ford')
 # Change the order of the list
 car.sort()
+# Reverse order
+car.sort(reverse=True)
 print(car)
 # Getting input from user
-car = input("What car do you want? ")
+car = input("Favourite car: ")
 # message 
 message = "I would like to own a " + car.title() + "."
 print(message)
