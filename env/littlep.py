@@ -7,17 +7,19 @@ print("Hi! " + names.title())
 message = "Welcome to Innoson Vehicles!"
 print(message)
 # More sentence
+print("Top Cars" + "\n")
 # Sorting a List Permanently with the sort() Method
 car = ['fox', 'umu', 'carrier', 'ivm carrier', 'g4', 'g6', 'g40', 'ivm carrier 4x4 pickup']
-# Changing element
-car[1] = 'carrier 4x4'
-car[3] = 'g5'
+# Looping through a slice 
+for car in car[:10]:
+    print(car.title())
+# Changing element'
 # Adding element
-car.append('g7')
+# car.append('g7')
 # Change the order of the list
-car.sort()
+# car.sort()
 # Reverse order
-car.sort(reverse=True)
+# car.sort(reverse=True)
 print(car)
 # Getting input from user
 car = input("Your Order? ")
