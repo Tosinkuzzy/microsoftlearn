@@ -5,3 +5,4 @@ def get_ticket(speed):
         return "Speeding"
     else:
         return "Safe"
+    
