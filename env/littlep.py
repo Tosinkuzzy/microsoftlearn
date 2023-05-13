@@ -28,3 +28,17 @@ car = input("Your Order? ")
 # message 
 message = "I would like to own a " + car.title() + "."
 print(message)
+# Defining car func, passing parameter color
+# User input
+# for loop using, slice
+def car_color(color):
+    print("Car Color List:")
+    color = ['red', 'yellow', 'white', 'black']
+    for color in color:
+        print(color.title())
+    # print(color)
+    color = input("Pick car color: ")
+    if color in color:
+        print("I would like to own a " + color.title() + " " + car.title() + ".")
+# callable func
+car_color("[]")
