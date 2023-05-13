@@ -9,3 +9,11 @@ requested_toppings = ['onions', 'mushrooms', 'pineapple']
 True
 'pepperoni' in requested_toppings
 False
+
+favourite_toppings = input("Favourite Toppings Order:")
+toppings = ['sugar', 'soda', 'cream']
+print("Available == 'favourite_toppings'? I predict True")
+print(toppings == 'favourite_toppings')
+
+print("\Available == 'toppings'? I predict False")
+print(toppings = 'toppings')
