@@ -1,4 +1,8 @@
 # Checking wether a value is not in a list
+# Taking user input
+# if value of users not in list banned_list return True.
+# execute the indented line.
+# user='marie' 
 user = input("username:")
 banned_user = ['andrew13', 'jacob10', 'james15', 'amo110s', 'alex331']
 if user not in banned_user:
