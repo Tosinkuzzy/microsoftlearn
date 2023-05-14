@@ -42,3 +42,13 @@ def car_color(color):
         print("I would like to own a " + color.title() + " " + car.title() + ".")
 # callable func
 car_color("[]")
+# car price using if-elif-else chain
+car_budget = 30000 #input(str("Budget:"))
+if car_budget < 20000:
+    price = 22450
+elif car_budget > 100000:
+    price = 105656
+else:
+    price = 170000
+
+print("Your preferred car price is $" + str(car_budget) + ".")
