@@ -34,21 +34,27 @@ print(message)
 def car_color(color):
     print("Car Color List:")
     color = ['red', 'yellow', 'white', 'black']
-    for color in color:
-        print(color.title())
-    # print(color)
-    color = input("Pick car color: ")
-    if color in color:
-        print("I would like to own a " + color.title() + " " + car.title() + ".")
+    color = input("Pick color: ")
+    if color:
+       # print(color.title())
+     print("I would like to own a " + color.title() + " " + car.title() + ".")
+    #print(color)
+    messages = "Request Accepted."
+    print(messages)
+       # print(color.title())
+      # print(color)
+    # color = input("Pick car color: ")
+    # if color in color:
+# print("I would like to own a " + color.title() + " " + car.title() + ".")
 # callable func
 car_color("[]")
 # car price using if-elif-else chain
-car_budget = 30000 #input(str("Budget:"))
-if car_budget < 20000:
-    price = 22450
-elif car_budget > 100000:
-    price = 105656
-else:
-    price = 170000
-
+def budget(car_budget):
+    car_budget = 30000 #input(str("Budget:"))
+    if car_budget < 20000:
+        price = 22450
+    elif car_budget > 100000:
+        price = 105656
+    else:
+        price = 170000
 print("Your preferred car price is $" + str(car_budget) + ".")

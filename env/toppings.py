@@ -1,19 +1,13 @@
-# Checking for inequality
-requested_toppings = 'mushrooms'
-if requested_toppings != 'anchovies':
-    print("Hold the anchovies!")
- 
+# Checking for inequality 
 # Checking whether a value in a list
-requested_toppings = ['onions', 'mushrooms', 'pineapple']
-'mushrooms' in requested_toppings
-True
-'pepperoni' in requested_toppings
-False
-
+# Testing mutiple conditions
+requested_toppings = ['onions', 'mushrooms', 'pineapple', 'extra cheese']
 favourite_toppings = input("Favourite Toppings Order:")
-toppings = ['sugar', 'soda', 'cream']
-print("Available == 'favourite_toppings'? I predict True")
-print(toppings == 'favourite_toppings')
+if 'mushrooms' in requested_toppings:
+    print("Adding mushrooms.")
+if 'pepperoni' in requested_toppings:
+    print("Adding pepperoni.")
+if 'extra cheese' in requested_toppings:
+    print('Adding extra cheese.')
 
-print("\Available == 'toppings'? I predict False")
-print(toppings = 'toppings')
+print("\nFinished making your pizza!")
