@@ -1,10 +1,18 @@
+# Name associated in a list.
 favourite_languages = {
-    'jen': 'python',
-    'sarah': 'c',
-    'edward': 'ruby',
-    'phil': 'python',
-   'adam': 'pascal', 
+    'jen': ['python', 'ruby'],
+    'sarah': ['c'],
+    'edward': ['ruby', 'vb.net'],
+    'phil': ['python', 'java'],
+   'adam': ['pascal', 'javascript'],
 }
+# Looping through Dictionary
+# Using variable name to hold each values in Dictionary
+for name, languages in favourite_languages.items():
+    print("\n " + name.title() + "'s favourite languages are:")
+    # Loop to run each person's list of favourite languages.
+    for language in languages:
+        print("\t" + language.title())
 # Looping through dictionary
 # for name, language in favourite_languages.items():
   #  print(name.title() + "'s favourite language is " +
@@ -16,13 +24,13 @@ favourite_languages = {
 # friends = ['phil', 'edward']
 # Looping through a dict in order
 # for name in sorted(favourite_languages.keys()):
-for name in sorted(favourite_languages.keys()):
-    print(name.title() + ", thank you for taking the poll.")
+# for name in sorted(favourite_languages.keys()):
+    #print(name.title() + ", thank you for taking the poll.")
 
-if name in friends:
-    print("  Hi " + name.title() + ", I see your favourite language is " +
-               favourite_languages[name].title() + "!")
+# if name in friends:
+    #print("  Hi " + name.title() + ", I see your favourite language is " +
+               #favourite_languages[name].title() + "!")
     
-if 'erin' not in favourite_languages.keys():
-    print("Erin, please take our poll")
+# if 'erin' not in favourite_languages.keys():
+    #print("Erin, please take our poll")
     
