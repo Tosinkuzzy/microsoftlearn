@@ -10,6 +10,7 @@ image = pygame.transform.rotate(image, -90)
 while True:
     screen.fill("white")
     screen.blit(image,(0, 0))
+    
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()
