@@ -22,13 +22,8 @@ def run_game():
     while True:
         # Watch for keyboard and mouse events.
         gf.check_events(ai_settings, screen, ship, bullets)
-        bullets.update()
         ship.update()
+        bullets.update()
         gf.update_screen(ai_settings, screen, ship, bullets)
-        # Redraw the screen during each pass through the loop.
-        screen.fill(ai_settings.bg_color)
-        ship.blit()
-        # Make the most recently drawn screen visible.
-        pygame.display.flip()
 
 run_game()
