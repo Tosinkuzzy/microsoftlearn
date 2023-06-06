@@ -1,6 +1,7 @@
 import pygame
 class Ship():
     def __init__(self, ai_settings, screen):
+        super().__init__()
         """Initialize the ship and set it's starting position"""
         self.screen = screen
         self.ai_settings = ai_settings
@@ -25,7 +26,7 @@ class Ship():
             # Update rect object from self.center
             self.rect.centerx = self.center
             
-    def blit(self):
+    def blitme(self):
         """Draw the ship at its current location"""
         self.screen.blit(self.image, self.rect)
         
