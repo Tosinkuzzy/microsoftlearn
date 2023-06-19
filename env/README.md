@@ -1,4 +1,4 @@
-.@Linkedin: Tosinkuzzy
+@Linkedin: Tosinkuzzy
 @Author: Tosinkuzz
 Python Programming Intermediate Level.
 Codes:
