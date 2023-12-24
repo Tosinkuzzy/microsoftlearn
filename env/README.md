@@ -1,6 +1,6 @@
 @Linkedin: Tosinkuzzy
-@Author: Tosinkuzz
-Python Programming Intermediate Level.
+@Author: Tosinkuzzy
+Level: Python Programming Intermediate Level.
 Codes:
 projects:
 
