@@ -3,11 +3,8 @@ f0 = 0
 f1 = 1
 # Then we calculate
 f2 = f1 + f0
-f2
 f3 = f2 + f1
-f3
 f4 = f3 + f2
-f4
 # Principles of recursion
 def fib(n):
     if n < 2:
