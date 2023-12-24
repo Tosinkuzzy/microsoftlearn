@@ -1,7 +1,11 @@
 @Linkedin: Tosinkuzzy
+
 @Author: Tosinkuzzy
+
 Level: Python Programming Intermediate Level.
+
 Codes:
+
 projects:
 
 Rock Scissor Paper Game,
