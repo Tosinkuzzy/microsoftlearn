@@ -1,2 +1,3 @@
-// Printing first program Hello, World!
+"""Printing first program Hello, World!"""
+
 print('Hello, World!')
