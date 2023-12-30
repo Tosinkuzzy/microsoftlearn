@@ -1,3 +1,5 @@
+
+"""begineer calculator"""
 print("calculator program")
 first_number = input("first_number: ")
 second_number = input("second number: ")
